@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/nameMusicText"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FFFDFD"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/numberMusicText"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/musicMusicText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FDFCFC"
+        android:textColorHint="#FDFDFD"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/cityMusicText"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FDFBFB"
+
+        android:textColorHint="#FDFBFB"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="51dp" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="474dp"
+        android:layout_height="726dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backgraund" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="678dp"
+        android:layout_height="531dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logos" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="150dp"
+        android:onClick="signout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/signout" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="music"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/music" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="friends"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/friends" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="city"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/city" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

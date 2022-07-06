@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "741417633306",
+    "project_id": "nicesongdude-58f5e",
+    "storage_bucket": "nicesongdude-58f5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741417633306:android:09c61ab11c13160872b3a3",
+        "android_client_info": {
+          "package_name": "com.bilge.nicesongdude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741417633306-ojukhf64e0sksq1mjkuu5foinj8hgoh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcHr1CI64Ou5XBNyNZoAW1fFWjIJzsVzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741417633306-ojukhf64e0sksq1mjkuu5foinj8hgoh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
